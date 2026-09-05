@@ -1,9 +1,14 @@
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #000000;
     text-align: center;
     margin: 0;
     padding: 50px;
+    min-height: 2000px;
 }
 
 h1 {
