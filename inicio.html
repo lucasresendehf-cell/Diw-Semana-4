@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Playstack</title>
-    <link rel="icon" href="imagens/Logo.png">
-    <link rel="stylesheet" href="estilo.css">
-</head>
-
 <body>
 
-    <a href="inicio.html" class="Logo">
-        <img src="imagens/Logo.png" alt="ir pro inicio">
-    </a>
+    <head>
+        <meta charset="UTF-8">
+        <title>Playstack</title>
+        <link rel="icon" href="imagens/Logo.png">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
 
-    <div class="menu">
+    <header>
+        <a href="inicio.html" class="Logo">
+            <img src="imagens/Logo.png" alt="ir pro inicio">
+        </a>
+
+        <form action="#" method="get" class="busca">
+            <label for="busca">Buscar jogo:</label>
+            <input type="text" id="busca" name="busca" placeholder="Digite o nome do jogo">
+
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="acao">Ação</option>
+                <option value="rpg">RPG</option>
+                <option value="aventura">Aventura</option>
+            </select>
+
+            <button type="submit">Pesquisar</button>
+        </form>
+    </header>
+
+
+    <nav class="menu">
 
         <div class="botao Botao1">
             <a href="meio.html">Recursos</a>
@@ -76,18 +93,39 @@
                 <a href="construcao.html">Contato</a>
             </div>
         </div>
+    </nav>
+
+
+    <main>
+        <section class="carrossel">
+            <div class="imagens">
+                <img src="imagens/Blade.jpg">
+                <img src="imagens/Hogwarts.jpg">
+                <img src="imagens/spider.jpeg">
+                <img src="imagens/RD.jpg">
+            </div>]
+            <section class="filtros">
+                <a href="construcao.html" class="filtro">Gêneros</a>
+                <a href="construcao.html" class="filtro">Ano</a>
+                <a href="construcao.html" class="filtro">Ofertas</a>
+                <a href="construcao.html" class="filtro">Avaliações</a>
+                <a href="construcao.html" class="filtro">Biblioteca</a>
+            </section>
+        </section>
+    </main>
+
+    <div>
+        <a href="construcao.html" class="botaofiltro Generos">Generos</a>
+        <a href="construcao.html" class="botaofiltro Ano">Ano</a>
+        <a href="construcao.html" class="botaofiltro Ofertas">Ofertas</a>
+        <a href="construcao.html" class="botaofiltro Avaliações">Avaliações</a>
+        <a href="construcao.html" class="botaofiltro Biblioteca">Biblioteca</a>
 
     </div>
-    <div class="carrossel">
+    <footer>
+        <p>Playstack — 2026</p>
+    </footer>
 
-        <div class="imagens">
-            <img src="imagens/Blade.jpg">
-            <img src="imagens/Hogwarts.jpg">
-            <img src="imagens/spider.jpeg">
-            <img src="imagens/RD.jpg">
-        </div>
-
-    </div>
 </body>
 
 </html>

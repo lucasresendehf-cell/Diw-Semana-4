@@ -216,3 +216,152 @@ h1 {
     background-color: #292929;
     border-radius: 6px;
 }
+
+
+/*PESQUISA*/
+
+.busca {
+    /* Faz a caixa ficar em uma posição específica da página */
+    position: absolute;
+
+    /* Distância de 15px do topo da página */
+    top: 30px;
+
+    /* Distância de 15px do lado direito da página */
+    right: 15px;
+
+    /* Coloca os elementos internos lado a lado */
+    display: flex;
+
+    /* Alinha os elementos verticalmente no centro */
+    align-items: center;
+
+    /* Cria um espaço de 8px entre cada elemento */
+    gap: 8px;
+
+    /* Cor de fundo da caixa */
+    background-color: #151515;
+
+    /* Espaçamento interno:
+       10px em cima/baixo
+       15px nos lados */
+    padding: 10px 15px;
+
+    /* Arredonda os cantos da caixa */
+    border-radius: 8px;
+
+    /* Cria uma borda de 1px ao redor da caixa */
+    border: 1px solid #444;
+}
+
+
+.busca label {
+    /* Cor do texto */
+    color: #ddd;
+
+    /* Tamanho da fonte */
+    font-size: 14px;
+}
+
+.busca input[type="text"] {
+    /* Cor de fundo do campo */
+    background-color: #000;
+
+    /* Cor do texto digitado */
+    color: white;
+
+    /* Borda de 1px */
+    border: 1px solid #444;
+
+    /* Arredonda os cantos do campo */
+    border-radius: 6px;
+
+    /* Espaçamento interno:
+       6px em cima/baixo
+       10px nos lados */
+    padding: 6px 10px;
+
+    /* Tamanho do texto */
+    font-size: 14px;
+}
+
+.busca select {
+    /* Cor de fundo do select */
+    background-color: #000;
+
+    /* Cor do texto */
+    color: white;
+
+    /* Borda do select */
+    border: 1px solid #444;
+
+    /* Arredonda os cantos */
+    border-radius: 6px;
+
+    /* Espaçamento interno de 6px */
+    padding: 6px;
+
+    /* Tamanho da fonte */
+    font-size: 14px;
+}
+
+
+.busca button {
+    /* Cor de fundo do botão */
+    background-color: blue;
+
+    /* Cor do texto */
+    color: white;
+
+    /* Remove a borda padrão do botão */
+    border: none;
+
+    /* Arredonda os cantos */
+    border-radius: 6px;
+
+    /* Espaçamento interno:
+       8px em cima/baixo
+       14px nos lados */
+    padding: 8px 14px;
+
+    /* Muda o cursor para uma mão
+       quando passar sobre o botão */
+    cursor: pointer;
+}
+
+.busca button:hover {
+    /* Muda a cor do botão quando o mouse passa por cima */
+    background-color: rgb(41, 209, 35);
+}
+
+
+.botaofiltro {
+    position: absolute;
+    top: 435px;
+
+    background-color: rgb(251, 180, 2);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.Generos { 
+    left: 150px;
+}
+
+.Ano { 
+    left: 235px;
+}
+
+.Ofertas { 
+    left: 290px;
+}
+
+.Avaliações {
+    left: 370px;
+}
+
+.Biblioteca { 
+    left: 470px;
+}
