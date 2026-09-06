@@ -12,6 +12,7 @@ O projeto Playstack é uma plataforma dedicada a jogos eletrônicos, estruturada
 
 ## Wireframe
 
+![alt text](imagens/wireframe.png)
 
 ## Home-page
 
